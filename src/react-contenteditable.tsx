@@ -144,5 +144,5 @@ export interface Props extends DivProps {
   className?: string,
   style?: Object,
   innerRef?: React.RefObject<HTMLElement> | Function,
-  inputmode: 'text'|'tel'|'url'|'email'|'numeric'|'decimal'|'search'|string,
+  inputmode?: 'text'|'tel'|'url'|'email'|'numeric'|'decimal'|'search'|string,
 }
